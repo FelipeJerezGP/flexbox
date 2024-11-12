@@ -1,0 +1,114 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.boxLeft {
+  display: flex;
+  flex: 0 0 20%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-right: 5px;
+  /* background-color: aqua; */
+}
+
+.perfilContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid lightgray;
+}
+.itemPerfil {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 30px;
+  /* background-color: lightgray; */
+  text-align: left;
+  justify-content: flex-start;
+}
+.iconChat {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: #555;
+  padding-right: 10px;
+}
+
+.itemNuevoChat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  border-bottom: 1px solid lightgray;
+}
+.buttonNewChat {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(244, 220, 246);
+}
+.itemChat {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 30px;
+  /* background-color: lightgray; */
+  text-align: left;
+  justify-content: flex-start;
+  border-bottom: 1px solid lightgray;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: black;
+}
+
+.boxRight {
+  display: flex;
+  flex: 1 1 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.titleImage {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.descriptionImage {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+}
